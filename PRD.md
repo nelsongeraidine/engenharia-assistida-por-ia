@@ -1,6 +1,6 @@
 # PRD · Um Mergulho
 
-Data de Atualização: 05-10-2026_Versão 1.90
+Data de Atualização: 05-10-2026_Versão 2.00
 
 | Campo | Valor |
 |---|---|
@@ -205,3 +205,4 @@ Todas resolvidas, exceto as pendências de publicação (seção 11).
 | 1.70 | 05-10-2026 | Sequência pós-critique (`distill`, `typeset`, `adapt`, ajustes menores, `polish`): cards sem os três pontos e com sombra menor; faixa de estatísticas vira prova do método (FALHAS PREVISTAS · 6 cenários; DECISÕES · Registradas), aprovado pelo Nelson; rótulos ≥11 px e alvos de toque ≥44 px no celular; "análises de dados" no parágrafo das Notas; brilho da barra sem loop; régua trocada por segmentos (sem animar largura). |
 | 1.80 | 05-10-2026 | Documentação revisada para o estado atual (status, decisões, critérios, avaliação, pendências de publicação). Projeto versionado em https://github.com/nelsongeraidine/engenharia-assistida-por-ia. |
 | 1.90 | 05-10-2026 | `og.jpg` criada (1200×627) a partir do último quadro do vídeo, no mesmo estilo do hero. |
+| 2.00 | 05-10-2026 | `README.md` criado para apresentar o repositório no GitHub (o truque do blend, os 6 cenários de falha, estrutura, como rodar, publicação, créditos). |
