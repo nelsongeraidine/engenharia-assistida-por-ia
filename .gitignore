@@ -1,0 +1,4 @@
+# Histórico local das avaliações do Impeccable (não faz parte do site)
+.impeccable/
+# Restos de testes automatizados no navegador
+.playwright-mcp/
