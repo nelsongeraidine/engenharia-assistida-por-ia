@@ -1,6 +1,6 @@
 # PRD · Um Mergulho
 
-Data de Atualização: 05-10-2026_Versão 1.80
+Data de Atualização: 05-10-2026_Versão 1.90
 
 | Campo | Valor |
 |---|---|
@@ -17,7 +17,7 @@ Demonstrar, com a própria página como prova, o que engenharia assistida por IA
 **Critério de sucesso:** a página abre e revela a interface em qualquer cenário de falha, reproduz fielmente a especificação visual em desktop e mobile e não contém nenhum dado que não esteja neste documento.
 
 ## 2. Fora de escopo
-Formulário de contato, analytics, CMS, múltiplas páginas, i18n, modo escuro alternativo, geração da og.jpg.
+Formulário de contato, analytics, CMS, múltiplas páginas, i18n, modo escuro alternativo.
 
 ## 3. Fatos verificados (2026-10-05)
 - Vídeo `https://thinkingods.com/demos/kingfisher-hero/hero.mp4`: HTTP 200, `video/mp4`, 1,41 MB, 1280×720, 24 fps, **8,0 s**, servido via Cloudflare com **`Access-Control-Allow-Origin: *`** e `Accept-Ranges: bytes`.
@@ -183,7 +183,7 @@ Todas resolvidas, exceto as pendências de publicação (seção 11).
 - Correções aplicadas em v1.60 e v1.70. Detector final: 1 achado (Instrument Serif, fonte fixada pela spec).
 
 ## 11. Pendências de publicação
-1. Criar `og.jpg` (1200×627) e publicar na raiz.
+1. ~~Criar `og.jpg` (1200×627)~~ **Feito (v1.90):** último quadro do vídeo, palavra "Engenharia" atrás do pássaro, título e "Nelson Goulart Geraidine · Engenheiro de telecomunicações".
 2. Fazer o deploy na Vercel a partir do repositório.
 3. Trocar `SEU-PROJETO` pela URL real e descomentar as metas do bloco `TODO APÓS PUBLICAR`.
 4. Opcional: preencher `CONFIG.iteracoes` e `CONFIG.urlPrompt` (por exemplo, apontando para este PRD no GitHub).
@@ -204,3 +204,4 @@ Todas resolvidas, exceto as pendências de publicação (seção 11).
 | 1.60 | 05-10-2026 | Correções do `/impeccable critique` (nota 20/28): contraste de "pousa", do "02" e do contorno de foco; celular sem tela vazia e CTA mais alto (D16). Linha de papel recusada (D17). |
 | 1.70 | 05-10-2026 | Sequência pós-critique (`distill`, `typeset`, `adapt`, ajustes menores, `polish`): cards sem os três pontos e com sombra menor; faixa de estatísticas vira prova do método (FALHAS PREVISTAS · 6 cenários; DECISÕES · Registradas), aprovado pelo Nelson; rótulos ≥11 px e alvos de toque ≥44 px no celular; "análises de dados" no parágrafo das Notas; brilho da barra sem loop; régua trocada por segmentos (sem animar largura). |
 | 1.80 | 05-10-2026 | Documentação revisada para o estado atual (status, decisões, critérios, avaliação, pendências de publicação). Projeto versionado em https://github.com/nelsongeraidine/engenharia-assistida-por-ia. |
+| 1.90 | 05-10-2026 | `og.jpg` criada (1200×627) a partir do último quadro do vídeo, no mesmo estilo do hero. |

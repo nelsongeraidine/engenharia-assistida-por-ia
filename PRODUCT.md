@@ -2,7 +2,7 @@
 
 <!-- impeccable:product-schema 1 -->
 
-Data de Atualização: 05-10-2026_Versão 1.10
+Data de Atualização: 05-10-2026_Versão 1.20
 
 ## Platform
 
@@ -40,7 +40,7 @@ Trinta anos de telecom dão a disciplina; a IA dá a velocidade.
 ## Evidence on Hand
 - A própria página e o PRD que a especificou são a única prova pública (PRD versionado no repositório do projeto).
 - Não há cases, clientes, números de resultado nem depoimentos publicáveis. **Nenhum deles pode ser inventado** em versões futuras.
-- Ativos: `hero.mp4` (1280×720, 8 s, autorizado). `og.jpg` ainda não existe.
+- Ativos: `hero.mp4` (1280×720, 8 s, autorizado). `og.jpg` (1200×627, prévia para LinkedIn) criada a partir do último quadro do vídeo.
 - Faixa de estatísticas usa apenas fatos verificáveis do próprio projeto: 6 cenários de falha tratados no código e decisões registradas no PRD.
 
 ## Product Principles

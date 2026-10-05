@@ -1,6 +1,6 @@
 # CLAUDE.md · Um Mergulho
 
-Data de Atualização: 05-10-2026_Versão 1.80
+Data de Atualização: 05-10-2026_Versão 1.90
 
 ## Visão geral
 Landing page pessoal de Nelson Goulart Geraidine (engenheiro de telecomunicações) que prova, com a própria página,
@@ -15,7 +15,7 @@ Hero com vídeo de martim-pescador; a interface se revela quando o pássaro pous
   autorizado pelo thinkingods, ver PRD D2); `visualizar.bat` (pedido do Nelson: abre a página por HTTP
   local com um clique; o servidor Node vive dentro do próprio .bat); `PRODUCT.md` (pedido do Nelson via
   `/impeccable init`: público, posicionamento e provas para o Impeccable); `.gitignore` (mantém fora do repositório
-  o histórico local do Impeccable e restos de teste); após o deploy, `og.jpg` (1200×627).
+  o histórico local do Impeccable e restos de teste); `og.jpg` (1200×627, prévia de compartilhamento).
 - Ordem no arquivo: `<head>` (meta, og, bloco `TODO APÓS PUBLICAR`, fontes, `<style>` com tokens em `:root`)
   → hero → `#notas` → faixa de estatísticas → `#contato` → `<script>`.
 - Breakpoints: hero empilhado em `max-width:1200px` ou `max-aspect-ratio:13/9`; celular em `≤900px`;
