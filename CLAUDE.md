@@ -1,6 +1,6 @@
 # CLAUDE.md · Um Mergulho
 
-Data de Atualização: 05-10-2026_Versão 2.00
+Data de Atualização: 05-10-2026_Versão 2.10
 
 ## Visão geral
 Landing page pessoal de Nelson Goulart Geraidine (engenheiro de telecomunicações) que prova, com a própria página,
@@ -17,7 +17,7 @@ Hero com vídeo de martim-pescador; a interface se revela quando o pássaro pous
   `/impeccable init`: público, posicionamento e provas para o Impeccable); `.gitignore` (mantém fora do repositório
   o histórico local do Impeccable e restos de teste); `og.jpg` (1200×627, prévia de compartilhamento); `README.md` (pedido do Nelson:
   apresentação do repositório no GitHub).
-- Ordem no arquivo: `<head>` (meta, og, bloco `TODO APÓS PUBLICAR`, fontes, `<style>` com tokens em `:root`)
+- Ordem no arquivo: `<head>` (meta, og com URL absoluta do site, fontes, `<style>` com tokens em `:root`)
   → hero → `#notas` → faixa de estatísticas → `#contato` → `<script>`.
 - Breakpoints: hero empilhado em `max-width:1200px` ou `max-aspect-ratio:13/9`; celular em `≤900px`;
   alvos de toque de 44 px em `≤900px` ou `pointer:coarse`.
@@ -50,7 +50,7 @@ pendências de publicação ficam na seção 11.
 - JS: `const`/`let`, camelCase, constantes de configuração em MAIÚSCULAS (`REVEAL_AT`); sem dependências.
 - Toda leitura de pixel (`getImageData`) em try/catch com fallback nos valores do CSS.
 - Links externos sempre com `target="_blank" rel="noopener"`.
-- `og:url` e `og:image` em HTML estático, comentadas no bloco `TODO APÓS PUBLICAR`; nunca geradas por JS.
+- `og:url` e `og:image` em HTML estático com URL absoluta (https://engenharia-assistida-por-ia.vercel.app/); nunca geradas por JS.
 - Textos visíveis sem travessão, sem emoji, sem roxo, sem gradientes genéricos.
 - Indentação de 2 espaços; UTF-8 sem BOM.
 
@@ -59,6 +59,7 @@ pendências de publicação ficam na seção 11.
   o navegador. Sem Node, cai para Python (o REPETIR pode falhar sem Range). Não usar `file://`.
 - Testar: 360, 390, 768, 1024, 1180×740 e 1440 px; reduced motion (DevTools > Rendering); vídeo bloqueado
   (DevTools > Network > Block request URL).
-- Repositório: https://github.com/nelsongeraidine/engenharia-assistida-por-ia (branch `main`). Deploy: Vercel como site estático, sem comando de build.
+- Repositório: https://github.com/nelsongeraidine/engenharia-assistida-por-ia (branch `main`).
+  Deploy automático na Vercel a cada push: https://engenharia-assistida-por-ia.vercel.app/
 - Avaliação de design: `/impeccable critique index.html` (última nota 20/28, antes das correções v1.60 e v1.70).
 - Pasta sob sync do OneDrive: evitar escrita concorrente no mesmo arquivo.

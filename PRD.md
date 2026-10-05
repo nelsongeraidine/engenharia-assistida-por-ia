@@ -1,11 +1,11 @@
 # PRD · Um Mergulho
 
-Data de Atualização: 05-10-2026_Versão 2.00
+Data de Atualização: 05-10-2026_Versão 2.10
 
 | Campo | Valor |
 |---|---|
 | Autor | Nelson Goulart Geraidine, engenheiro de telecomunicações |
-| Status | Implementado e testado (v1.70); aguardando deploy |
+| Status | Publicado em https://engenharia-assistida-por-ia.vercel.app/ |
 | Repositório | https://github.com/nelsongeraidine/engenharia-assistida-por-ia |
 | Data | 2026-10-05 |
 | Entregável | `index.html` único, autocontido |
@@ -29,7 +29,7 @@ Formulário de contato, analytics, CMS, múltiplas páginas, i18n, modo escuro a
 - `<title>` e `og:title`: `Um Mergulho · Nelson Goulart Geraidine`
 - `meta description` e `og:description`: `Engenharia assistida por IA na prática, por Nelson Goulart Geraidine, engenheiro de telecomunicações: uma página, um arquivo, zero frameworks.`
 - `og:type`: `website`
-- Bloco de comentário HTML `TODO APÓS PUBLICAR` contendo, estáticas: `og:url` = `https://SEU-PROJETO.vercel.app/`, `og:image` = `https://SEU-PROJETO.vercel.app/og.jpg` (absoluta, 1200×627).
+- `og:url` = `https://engenharia-assistida-por-ia.vercel.app/`, `og:image` = `https://engenharia-assistida-por-ia.vercel.app/og.jpg` (absoluta, 1200×627), HTML estático. Até a v2.00 ficavam comentadas no bloco `TODO APÓS PUBLICAR`.
 - Google Fonts: Instrument Serif (400, 400 itálico), Manrope (400 a 700), JetBrains Mono (400, 500), com `display=swap` e `preconnect`.
 
 ### 4.2 Configuração (topo do `<script>`)
@@ -172,7 +172,7 @@ Todas resolvidas, exceto as pendências de publicação (seção 11).
 6. `CONFIG.urlPrompt = null` não deixa link nem espaço; com valor, link funciona. `CONFIG.iteracoes` alterna rótulo e valor.
 7. Miniaturas mostram cabeça e asa do pássaro; placeholder quando não houver quadro.
 8. Replay repete a coreografia completa.
-9. og:url/og:image estáticas e comentadas no bloco `TODO APÓS PUBLICAR`.
+9. og:url/og:image estáticas, com URL absoluta do site publicado.
 10. 360, 390, 768, 1024, 1180×740, 1280×900, 1440 e 1920 px sem rolagem horizontal; hero empilhado e layout ≤900 px conforme seção 6. No celular: rótulos ≥11 px e alvos de toque ≥44 px.
 11. Todos os links externos com `target="_blank" rel="noopener"`.
 12. Console sem erros não tratados.
@@ -184,8 +184,8 @@ Todas resolvidas, exceto as pendências de publicação (seção 11).
 
 ## 11. Pendências de publicação
 1. ~~Criar `og.jpg` (1200×627)~~ **Feito (v1.90):** último quadro do vídeo, palavra "Engenharia" atrás do pássaro, título e "Nelson Goulart Geraidine · Engenheiro de telecomunicações".
-2. Fazer o deploy na Vercel a partir do repositório.
-3. Trocar `SEU-PROJETO` pela URL real e descomentar as metas do bloco `TODO APÓS PUBLICAR`.
+2. ~~Deploy na Vercel~~ **Feito:** projeto `engenharia-assistida-por-ia`, https://engenharia-assistida-por-ia.vercel.app/
+3. ~~Metas og:url e og:image~~ **Feito (v2.10):** ativas com a URL real.
 4. Opcional: preencher `CONFIG.iteracoes` e `CONFIG.urlPrompt` (por exemplo, apontando para este PRD no GitHub).
 
 ## 12. Histórico de versões
@@ -206,3 +206,4 @@ Todas resolvidas, exceto as pendências de publicação (seção 11).
 | 1.80 | 05-10-2026 | Documentação revisada para o estado atual (status, decisões, critérios, avaliação, pendências de publicação). Projeto versionado em https://github.com/nelsongeraidine/engenharia-assistida-por-ia. |
 | 1.90 | 05-10-2026 | `og.jpg` criada (1200×627) a partir do último quadro do vídeo, no mesmo estilo do hero. |
 | 2.00 | 05-10-2026 | `README.md` criado para apresentar o repositório no GitHub (o truque do blend, os 6 cenários de falha, estrutura, como rodar, publicação, créditos). |
+| 2.10 | 05-10-2026 | Publicado na Vercel (https://engenharia-assistida-por-ia.vercel.app/). Metas og:url e og:image ativadas com a URL real; bloco TODO APÓS PUBLICAR removido. |

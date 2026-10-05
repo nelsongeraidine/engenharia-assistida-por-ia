@@ -1,8 +1,10 @@
 # Um Mergulho
 
-Data de Atualização: 05-10-2026_Versão 1.00
+Data de Atualização: 05-10-2026_Versão 1.10
 
 ![Prévia da página: martim-pescador pousado com a palavra Engenharia ao fundo](og.jpg)
+
+**No ar:** https://engenharia-assistida-por-ia.vercel.app/
 
 Landing page de **Nelson Goulart Geraidine**, engenheiro de telecomunicações, que demonstra na prática o que engenharia assistida por IA com método entrega.
 
@@ -50,7 +52,7 @@ A página precisa ser servida por HTTP. Abrir o arquivo direto (`file://`) faz a
 
 ## Publicação
 
-Site estático, sem comando de build: basta importar este repositório na Vercel. Depois do primeiro deploy, troque `SEU-PROJETO` pela URL real no bloco `TODO APÓS PUBLICAR` do `<head>` e descomente as metas `og:url` e `og:image`.
+Site estático, sem comando de build, publicado na Vercel a partir deste repositório: cada push na `main` gera um novo deploy. As metas `og:url` e `og:image` usam a URL absoluta do site; se o domínio mudar, atualize-as no `<head>`.
 
 ## Créditos
 
