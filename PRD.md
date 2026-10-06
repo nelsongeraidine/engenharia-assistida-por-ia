@@ -1,6 +1,6 @@
 # PRD · Um Mergulho
 
-Data de Atualização: 05-10-2026_Versão 2.10
+Data de Atualização: 05-10-2026_Versão 2.20
 
 | Campo | Valor |
 |---|---|
@@ -207,3 +207,4 @@ Todas resolvidas, exceto as pendências de publicação (seção 11).
 | 1.90 | 05-10-2026 | `og.jpg` criada (1200×627) a partir do último quadro do vídeo, no mesmo estilo do hero. |
 | 2.00 | 05-10-2026 | `README.md` criado para apresentar o repositório no GitHub (o truque do blend, os 6 cenários de falha, estrutura, como rodar, publicação, créditos). |
 | 2.10 | 05-10-2026 | Publicado na Vercel (https://engenharia-assistida-por-ia.vercel.app/). Metas og:url e og:image ativadas com a URL real; bloco TODO APÓS PUBLICAR removido. |
+| 2.20 | 05-10-2026 | Carrossel de divulgação (7 slides 1080×1350, slide 1 também em MP4 com o pouso, PDF para LinkedIn) gerado na pasta local `carrossel/`, ignorada pelo git. |

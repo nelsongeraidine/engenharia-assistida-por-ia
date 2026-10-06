@@ -2,3 +2,5 @@
 .impeccable/
 # Restos de testes automatizados no navegador
 .playwright-mcp/
+# Carrossel de divulgação (Instagram/LinkedIn): material de marketing, fora do site
+carrossel/
